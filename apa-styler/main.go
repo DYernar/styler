@@ -119,8 +119,9 @@ func getStyle(w http.ResponseWriter, r *http.Request) {
 }
 
 func main(){
+	port := os.Getenv("PORT")
 	http.HandleFunc("/", getStyle)
-	err := http.ListenAndServe(":6060", nil)
+	err := http.ListenAndServe(":"+port, nil)
 	if err != nil {
 		log.Fatal("Listen And Serve: ", err)
 	}
