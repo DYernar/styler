@@ -1,1 +1,1 @@
-web: ./styler
+web: styler
