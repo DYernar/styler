@@ -1,1 +1,1 @@
-web: styler
+web: go build main.go && ./styler
