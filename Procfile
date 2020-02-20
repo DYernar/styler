@@ -1,1 +1,1 @@
-web: apa-styler
+web: styler
