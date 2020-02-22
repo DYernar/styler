@@ -99,7 +99,7 @@
       margin-top: 20px;
       text-align: center;
       }
-      button {
+      .button1 {
       width: 150px;
       padding: 10px;
       border: none;      
@@ -107,6 +107,19 @@
       -moz-border-radius: 5px; 
       border-radius: 5px; 
       background-color: #095484;
+      font-size: 16px;
+      color: #fff;
+      cursor: pointer;
+      }
+
+      .button2 {
+      width: 150px;
+      padding: 10px;
+      border: none;      
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px; 
+      border-radius: 5px; 
+      background-color: #098432;
       font-size: 16px;
       color: #fff;
       cursor: pointer;
@@ -136,7 +149,7 @@
   </head>
   <body>
     <div class="testbox">
-      <h3 class="header2">Format your references easily and correctly</h3>
+      <h3 class="header2">Format your references easily</h3>
     </div>
 
     <div class="testbox">
@@ -187,7 +200,7 @@
           <input type="text" name="url" placeholder="Url"/>
         </div>
         <div class="btn-block">
-          <button type="submit" href="/">SEND</button>
+          <button class="button1" type="submit" href="/">SEND</button>
         </div>
       </form>
     </div>
@@ -202,7 +215,7 @@
         <br><br>
     </div>
     <div class="testbox">
-      <button onclick="myFunction()">Copy reference</button>
+      <button class="button2" onclick="myFunction()">Copy reference</button>
     </div>
   </body>
   <script>
