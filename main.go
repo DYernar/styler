@@ -56,22 +56,23 @@ func MakeApa(data refData) string {
 	}
 	if data.Publisher != "" {
 		retVal += data.Publisher
+		retVal +=", "
 	}
 	if data.Volume != "" {
-		retVal +=", "
 		retVal += "vol"+data.Volume
+		retVal +=", "
 	}
 	if data.Chapter != "" {
-		retVal +=", "
 		retVal += "ch"+data.Chapter
+		retVal +=", "
+
 	}
 
 	if data.Page != "" {
-		retVal +=", "
 		retVal += "page"+data.Page
+		retVal +=". "
 	}
 	if data.Url != "" {
-		retVal +=". "
 		retVal += "Retrieved from: "
 		retVal += data.Url
 	}
