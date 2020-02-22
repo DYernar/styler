@@ -32,10 +32,10 @@ func MakeApa(data refData) string {
 	retVal = data.LastName
 	if data.FirstName != "" {
 		retVal+= ", "+string(data.FirstName[0])
+		retVal += ". "
 	}
 	fmt.Print(data.FirstName)
 	if data.ThirdName != "" {
-		retVal += ". "
 		retVal+= string(data.ThirdName[0])
 		retVal +=". "
 	}
