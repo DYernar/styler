@@ -4,4 +4,6 @@ User can enter all necessary information and get the well structured citing to t
 The app facilitates the writing process and helps to focus on other important aspects of writing
 <hr>
 Web page was implemented using <strong>Golang</strong> and HTML, CSS
+<br>
+<a href="https://apa-styler.herokuapp.com/">link to the app</a>
 
